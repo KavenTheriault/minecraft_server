@@ -7,6 +7,7 @@ services:
     environment:
       EULA: "TRUE"
       VERSION: "SNAPSHOT"
+      MEMORY: "500M"
 
     image: itzg/minecraft-server
 
